@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.gpl.flowlayout.view.FlowLayout
+        android:padding="6dp"
+        android:id="@+id/flow_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    </com.gpl.flowlayout.view.FlowLayout>
+
+</ScrollView>
