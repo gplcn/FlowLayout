@@ -4,8 +4,8 @@
 	工程中最主要的类是FlowLayout.java;
 	该类是自定义一个ViewGroup,往里面添加TextView,它会自动摆放为瀑布流的效果;
 	另一个类是UIUtil.java该类提供的方法createRandomBackgroundSelector()可以生成一个随机颜色的状态选择器;
-	如果在往FlowLayout里添加TextView时利用UIUtil的中方法设背景为随机颜色的状态选择器
-	会使得瀑布流效果更加绚丽;
+	如果在往FlowLayout里添加TextView时利用UIUtil的中通过代码方法设背景为随机颜色的状态选择器会使得瀑布流效果更加绚丽;
+	本demo在生成TextView的同时为text设置了与背景相呼应的颜色selector。
 ##使用帮助
 &emsp;&emsp;&nbsp;	
 1.在布局文件中引用FlowLayout:
@@ -32,5 +32,4 @@
     	   tv.setBackgroundDrawable(UIUtil.createRandomBackgroundSelector());
     	   flow_layout.addView(tv);
 ##实现效果
-![Alt text](https://github.com/gplcn/FlowLayout/raw/master/Screenshots/Screenshot01.png)</br>
-![Alt text](https://github.com/gplcn/FlowLayout/raw/master/Screenshots/Screenshot02.png)
+![image](https://github.com/gplcn/FlowLayout/raw/master/Screenshots/Screenshot01.gif)
